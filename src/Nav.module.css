@@ -1,0 +1,128 @@
+
+.stickybar{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255,255,255,0.95);
+  transition: background 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 0.5rem;
+}
+.navContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.desktopNav {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  color: rgb(2, 118, 154);
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(2, 118, 154);
+}
+
+.mobileNav {
+  position: fixed;
+  top: 0;
+  left: -280px;
+  width: 240px;
+  height: 100%;
+  background: white;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.mobileNav.active {
+  left: 0;
+}
+
+.mobileNavHeader {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+  color: rgb(2, 118, 154);
+}
+
+.mobileNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mobileNav a {
+  text-decoration: none;
+  color: rgb(2, 118, 154);
+  font-weight: 600;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  z-index: 999;
+}
+.logo{
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .desktopNav {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+.link {
+    text-decoration: none;
+    color: #00e5ff; /* Blue color */
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+    color: #55f03d; /* Darker blue */
+    text-decoration-thickness: 2px;
+    text-decoration-color: #55f03d;
+  }

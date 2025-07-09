@@ -1,0 +1,20 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  @media (max-width: 768px) {
+    .module {
+        flex: 1 1 calc(45% - 20px); /* 2 modules in a row for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .module {
+        flex: 1 1 100%; /* 1 module in a row for mobile devices */
+    }
+
+    .header {
+        padding: 10px 0;
+    }
+}
+}

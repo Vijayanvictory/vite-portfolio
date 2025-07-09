@@ -1,0 +1,17 @@
+.body {
+  background-image: linear-gradient(to bottom, #ffffff, #9ff9fc); 
+}
+
+
+.Button {
+  transition: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1); /* Smooth transition for all properties */
+  text-decoration: none;
+}
+
+.Button:hover {
+  background: linear-gradient(to left, rgba(0, 255, 255, 0.2), transparent);
+  border-radius: 7px;
+  padding: 2px 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for a smooth effect */
+  cursor: pointer;
+}
