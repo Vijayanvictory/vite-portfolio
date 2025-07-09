@@ -32,8 +32,8 @@ function AboutUs() {
   return (
     <>
       <Helmet>
-        <title>VS-About</title>
-        <meta name="description" content="Discover VS Solutions, an IT company focused on transforming businesses with top-tier software development services, Visual Studio integrations, and custom IT solutions." />
+        <title>Abc-About</title>
+        <meta name="description" content="Discover Abc Solutions, an IT company focused on transforming businesses with top-tier software development services, Visual Studio integrations, and custom IT solutions." />
       </Helmet>
 
           <img className={styles.floatingImageTriangle} src={Triangle} alt="loading" />
@@ -59,7 +59,7 @@ function AboutUs() {
                   <div style={{ fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif", width: '70%' }}>
                       <button  style={{ border: 'none', backgroundColor: 'rgb(220, 255, 209)', color: 'rgb(80, 233, 75)', padding: '5px', paddingInline: '20px', borderRadius: '15px' }}>About Us</button>
                       <h2>Engaging New Audiences Through Smart Approach</h2>
-                      <p style={{color:' rgb(111, 157, 242)'}}>At VS-Solution, we’re not just a startup; we’re your partner in crafting unique, cutting-edge Web Applications that propel businesses to new heights in the digital world. Our passionate team thrives on creativity and technology, turning your ideas into stunning realities that not only meet your needs but exceed your expectations.</p>
+                      <p style={{color:' rgb(111, 157, 242)'}}>At Abc-Solution, we’re not just a startup; we’re your partner in crafting unique, cutting-edge Web Applications that propel businesses to new heights in the digital world. Our passionate team thrives on creativity and technology, turning your ideas into stunning realities that not only meet your needs but exceed your expectations.</p>
                   </div>
               </div>
           </div>
@@ -67,7 +67,7 @@ function AboutUs() {
           <div className={styles.secondaryDiv} style={{ fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif", display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '2%', columnGap: '40px' }}>
               <div class={styles.OurHistory} style={{ color: 'rgb(39, 37, 37)', borderTop: 'solid rgb(255, 126, 126) 1px', borderLeft: 'solid rgb(255, 126, 126) 1px', borderRadius: '5px', padding: '15px' }}>
                   <p style={{fontSize: '22px', fontWeight: '400'}}>Our History</p>
-                  <p style={{color: 'rgb(111, 157, 242)'}}>"Born from the shared vision of two developers, VS Apps was founded on the belief that technology should empower businesses. We combine innovative thinking with a deep understanding of user needs to create solutions that help businesses thrive.</p>
+                  <p style={{color: 'rgb(111, 157, 242)'}}>"Born from the shared vision of two developers, Abc Apps was founded on the belief that technology should empower businesses. We combine innovative thinking with a deep understanding of user needs to create solutions that help businesses thrive.</p>
                   <div>
                       <Link to={'/SiteUnderConstruction'} class={styles.OurHistoryButton} style={{ display: 'flex', flexDirection: 'row', justifyContent: 'end', alignItems: 'center', columnGap: '10px', textDecoration:'none' }}>
                           <img src={Plus} alt="loading" width="20px"/>Learn more
@@ -76,7 +76,7 @@ function AboutUs() {
               </div>
               <div class={styles.OurMission} style={{ color: 'rgb(39, 37, 37)', borderTop: 'solid rgb(172, 255, 120) 1px', borderLeft: 'solid rgb(172, 255, 120) 1px', borderRadius: '5px', padding: '15px' }}>
                   <p style={{ fontSize: '22px', fontWeight: '400' }}>Our Mission</p>
-                  <p style={{ color: 'rgb(111, 157, 242)' }}>"At VS Apps, our mission is to empower businesses through innovative web applications. We prioritize user success by delivering solutions that are not only functional and user-friendly but also drive measurable results."</p>
+                  <p style={{ color: 'rgb(111, 157, 242)' }}>"At Abc Apps, our mission is to empower businesses through innovative web applications. We prioritize user success by delivering solutions that are not only functional and user-friendly but also drive measurable results."</p>
                   <div>
                       <Link to={'/SiteUnderConstruction'} class={styles.OurMissionButton} style={{ display: 'flex', flexDirection: 'row', justifyContent: 'end', alignItems: 'center', columnGap: '10px', textDecoration:'none' }}>
                           <img src={Plus} alt="loading" width="20px"/>Learn more
@@ -163,7 +163,7 @@ function AboutUs() {
           </div>
 
           <div className={styles.Mission} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '3%'}}>
-              <div className={styles.Missionp} style={{ fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif", fontSize: '20px', width:'auto' }}>At <span style={{ fontSize: '1em', fontWeight: 'bold' }}>VS-Solution</span>, our mission is to empower businesses by providing exceptional web solutions that drive growth, enhance visibility, and foster connections. We believe that a strong online presence is essential in today’s digital landscape, and we’re here to help you navigate it with confidence.</div>
+              <div className={styles.Missionp} style={{ fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif", fontSize: '20px', width:'auto' }}>At <span style={{ fontSize: '1em', fontWeight: 'bold' }}>Abc-Solution</span>, our mission is to empower businesses by providing exceptional web solutions that drive growth, enhance visibility, and foster connections. We believe that a strong online presence is essential in today’s digital landscape, and we’re here to help you navigate it with confidence.</div>
               <div className={styles.MissionImg} style={{ backgroundImage: `url(${Goals})`, backgroundPosition: 'center', backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}><img className={styles.MissionImg} src={Target} alt="loading" style={{ cursor: 'none', pointerEvents: 'none' }}/></div>
           </div>
 

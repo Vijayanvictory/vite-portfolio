@@ -50,8 +50,8 @@ function Home () {
     <>
 
     <Helmet>
-      <title>VS Solution</title>
-      <meta name="description" content="Discover VS Solutions, an IT company focused on transforming businesses with top-tier software development services, Visual Studio integrations, and custom IT solutions." />
+      <title>abc-Solution</title>
+      <meta name="description" content="Discover abc-Solution, an IT company focused on transforming businesses with top-tier software development services, Visual Studio integrations, and custom IT solutions." />
     </Helmet>
 
     <div style={{fontFamily:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"}}>
